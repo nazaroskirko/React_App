@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "amd": true,
+    "es6": true,
+    "mocha": true,
+    "jest": true
+  },
+  "extends": [
+    "standard",
+    "standard-jsx",
+    "plugin:react/recommended"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "strict": 0,
+    "no-console": [
+      2
+    ],
+    "no-debugger": [
+      2
+    ],
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ],
+    "jsx-quotes": [
+      2,
+      "prefer-double"
+    ],
+    "no-multi-spaces": 0,
+    "no-underscore-dangle": 0,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "prefer-promise-reject-errors": 0,
+    "space-before-function-paren": [
+      2,
+      "never"
+    ]
+  },
+  "settings": {
+    "polyfills": [
+      "fetch"
+    ],
+  }
+}
