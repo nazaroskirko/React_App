@@ -1,4 +1,4 @@
-Epicalls frontend
+Frontend
 ============================
 
 Install dependencies
